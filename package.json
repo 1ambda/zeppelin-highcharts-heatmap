@@ -1,0 +1,28 @@
+{
+  "name": "zeppelin-highcharts-heatmap",
+  "version": "0.0.1",
+  "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1ambda/zeppelin-highcharts-heatmap.git"
+  },
+  "keywords": [ "zeppelin" ],
+  "author": "1ambda",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "bugs": {
+    "url": "https://github.com/1ambda/zeppelin-highcharts-heatmap/issues"
+  },
+  "homepage": "https://github.com/1ambda/zeppelin-highcharts-heatmap#readme",
+  "dependencies": {
+    "highcharts": "^5.0.6",
+    "zeppelin-tabledata": "*",
+    "zeppelin-vis": "*"
+  },
+  "helium": {
+    "icon": "<i class=\"fa fa-th\"></i>"
+  }
+}
