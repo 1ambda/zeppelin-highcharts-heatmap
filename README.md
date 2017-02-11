@@ -11,3 +11,6 @@ Heatmap Charts for Apache Zeppelin using highcharts.js
 
 ![](https://raw.githubusercontent.com/1ambda/zeppelin-highcharts-heatmap/master/screenshots/heatmap-usage.gif)
 
+## License
+
+See [https://shop.highsoft.com/faq](https://shop.highsoft.com/faq)

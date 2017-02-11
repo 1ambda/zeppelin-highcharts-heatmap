@@ -160,8 +160,8 @@ export function createHighchartOption(xAxisCategories, yAxisCategories, data) {
 
         tooltip: {
             formatter: function () {
-                return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> sold <br><b>' +
-                    this.point.value + '</b> items on <br><b>' + this.series.yAxis.categories[this.point.y] + '</b>';
+                return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> / <b>' +
+                    this.point.value + '</b> / <b>' + this.series.yAxis.categories[this.point.y] + '</b>';
             }
         },
 
