@@ -1,6 +1,6 @@
 {
   "name": "zeppelin-highcharts-heatmap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
   "main": "index.js",
   "scripts": {
