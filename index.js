@@ -118,10 +118,7 @@ export function createHeatmapDataStructure(xAxisIndex, xAxisCategories,
         const yAxisValue = row[yAxisIndex]
         const yAxisValueIndex = yAxisCategories.indexOf(yAxisValue);
 
-        let colorAxisValue = row[colorAxisIndex];
-        if (!Number.isNaN(colorAxisValue)) {
-            colorAxisValue = parseFloat(colorAxisValue);
-        }
+        let colorAxisValue = parseFloat(row[colorAxisIndex]);
 
         const heatmapRow = [xAxisValueIndex, yAxisValueIndex, colorAxisValue];
         data.push(heatmapRow);
