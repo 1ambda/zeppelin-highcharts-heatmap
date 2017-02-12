@@ -46,7 +46,7 @@ export default class HeatmapChart extends Visualization {
 
         const { xAxisCategories, yAxisCategories, } =
             extractCategories(xAxisIndex, yAxisIndex, rows)
-        const data = createHeatmapDataStructure(
+        const data = createDataStructure(
             xAxisIndex, xAxisCategories, yAxisIndex, yAxisCategories, colorAxisIndex, rows)
 
         const chartOption = createHighchartOption(xAxisCategories, yAxisCategories, data);
@@ -105,9 +105,9 @@ export function extractCategories(xAxisIdx, yAxisIdx, rows) {
  * @return {Array<Array<number>>}
  * See also: http://jsfiddle.net/gh/get/jquery/3.1.1/highslide-software/highcharts.com/tree/master/samples/highcharts/demo/heatmap/
  */
-export function createHeatmapDataStructure(xAxisIndex, xAxisCategories,
-                                           yAxisIndex, yAxisCategories,
-                                           colorAxisIndex, rows) {
+export function createDataStructure(xAxisIndex, xAxisCategories,
+                                    yAxisIndex, yAxisCategories,
+                                    colorAxisIndex, rows) {
     const data = []
     for (let i = 0; i < rows.length; i++) {
         const row = rows[i];
