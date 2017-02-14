@@ -4,8 +4,9 @@ Heatmap Charts for Apache Zeppelin using highcharts.js
 
 ## Usage
 
-- Enable in the `/helium` page
-- Set `xAxis`, `yAxis` and `colorAxis`. Value of `colorAxis` should be number.  
+- **xAxis**: `categorical`
+- **yAxis**: `categorical`
+- **colorAxis**: `number`
 
 ## Screenshots 
 
